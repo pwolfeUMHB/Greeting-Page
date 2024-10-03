@@ -1,0 +1,78 @@
+html{
+    background-color: #a0decf;
+    font-family:calibri;
+}
+
+
+h1{
+    color: #2e86c1;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+#greetingSection{
+    text-align: center;
+    width: 50%;
+    margin: 50px auto;
+    background-color: #e5e8e8;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #2e86c1;  
+}
+
+
+form label, input{
+    display: block;
+    margin: 5px auto;
+    width: 90%;
+}
+
+
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+
+input[type="submit"]{
+    background-color: #2E86C1;
+    color: white;
+    padding: 10PX;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 30%;
+
+
+}
+
+
+input[type="submit"]:hover{
+    background-color: #256088;
+}
+
+
+#greetingMsg{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.hidden{
+    display: none;
+}
+
+
+.image{
+    text-align: center;
+    padding: 5px;
+}
+
+
+.image img {
+    width: 550px;
+    height: auto;
+    border-radius: 10px;
+}
